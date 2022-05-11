@@ -1,0 +1,218 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body,html {
+
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh; 
+}
+
+.celularlogo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.celularlogo img {
+
+    height: 50rem;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    min-height: 34rem;
+}
+
+.container-login {
+
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.logoinsta {
+
+    height: 3rem;
+}
+
+.logoinsta img {
+
+    width: 100%;
+}
+
+.perfilfoto {
+
+    margin-top: 15px;
+}
+
+.perfilfoto img {
+
+    height: 4rem;
+    border-radius: 50%;
+}
+
+a.logininstagram {
+
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 9px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+a.logininstagram:hover {
+
+    opacity: 0.4;
+}   
+
+a.deleteinsta {
+
+    color: #0095f6;
+    margin-top: 15px;
+}
+
+a.deleteinsta:hover {
+
+    border-bottom: 2px solid #0095f6;
+ }
+
+.container-account {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.conta-account{
+
+    color: rgb(160, 160, 160);
+}
+
+.container-account a {
+
+    color: #0095f6;
+}
+
+.area-download {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.area-download p {
+
+    font-size: 16px;
+}
+
+.area-download .botoes-download {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.area-download .botoes-download  a {
+
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.area-download .botoes-download  a:hover {
+
+    opacity: 0.4;
+}
+
+.area-download .botoes-download a:first-child {
+
+    margin-right: 30px;
+}
+
+.area-download .botoes-download  a img {
+
+    width: 100%;
+}
+
+
+@media (max-width: 1024px) {
+
+    section {
+
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+
+    body {
+
+        background-color: #ffffff;
+    }
+
+    section {
+
+        width: 90%;
+    }
+
+    .celularlogo {
+
+        display: none;
+    }
+
+    .container {
+
+        width: 100%;
+    }
+
+  
+ 
+
+   
+
+   
+
+   
+}
+
